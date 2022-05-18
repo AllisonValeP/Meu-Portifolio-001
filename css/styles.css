@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+nav{height: 56px;}
+ul.navegation-items {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    height: 100%;
+}
+
+ul.navegation-items li {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+ul.navegation-items li a{
+    padding: 0px,10px;
+    color: red;
+}
+ul.navegation-items li a:hover{
+    color: blue;
+    font-size: 30px;
+}
